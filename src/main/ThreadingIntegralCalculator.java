@@ -15,6 +15,7 @@ public class ThreadingIntegralCalculator implements Runnable {
     @Override
     public void run() {
         double v = calculator.calculate();
-        main.sendResult(v);
+//        main.sendResult(v);
+        main.sendResult1(v);
     }
 }
